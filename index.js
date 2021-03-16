@@ -12,7 +12,7 @@ const db = require("./db.js");
     const catalogue_post_form = await db.selectCustomers();
     console.log(catalogue_post_form);
 })();
-app.get('/teste', async (req,res) => {
+app.get('/', async (req,res) => {
     const db = require("./db");
     console.log('Começou!');
  
